@@ -9,6 +9,7 @@ public class Apresentacao extends javax.swing.JFrame {
     
     public Apresentacao() {
         initComponents();
+        setExtendedState(MAXIMIZED_BOTH);
     }
 
     

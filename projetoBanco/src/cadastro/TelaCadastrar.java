@@ -4,6 +4,8 @@
  */
 package cadastro;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author WESLEY
@@ -15,6 +17,7 @@ public class TelaCadastrar extends javax.swing.JFrame {
      */
     public TelaCadastrar() {
         initComponents();
+        
     }
 
     /**
@@ -152,6 +155,7 @@ public class TelaCadastrar extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new TelaCadastrar().setVisible(true);
+                 
             }
         });
     }
